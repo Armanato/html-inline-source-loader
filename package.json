@@ -1,0 +1,35 @@
+{
+  "name": "html-inline-source-loader",
+  "version": "1.1.0",
+  "description": "Inserts Javascript source code into relative pathed <script> elements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test --colors --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArmandChoy/html-inline-source-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "inline",
+    "source"
+  ],
+  "author": "Armand Choy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArmandChoy/html-inline-source-loader/issues"
+  },
+  "homepage": "https://github.com/ArmandChoy/html-inline-source-loader#readme",
+  "dependencies": {
+    "jsdom": "^11.1.0",
+    "memory-fs": "^0.4.1",
+    "webpack": "^3.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2",
+    "sinon": "^2.4.1"
+  }
+}
